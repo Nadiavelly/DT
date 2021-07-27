@@ -9,4 +9,4 @@ SELECT name FROM songbook
 SELECT name FROM musician
 	WHERE name NOT LIKE '% %';
 SELECT name FROM soundtrack
-	WHERE name LIKE '%my%' OR name LIKE '%My%';
+	WHERE name LIKE '%my%' OR name LIKE '%мой%';
